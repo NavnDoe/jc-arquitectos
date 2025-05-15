@@ -14,8 +14,6 @@
 *         GLOBAL   
 *
 ***************************************/
-
-
 :root {
     --bg-light: #f8f8f8;
     --bg-dark: #10131c;
@@ -34,6 +32,11 @@
 ::selection {
     background-color: var(--color-green);
     color: var(--color-white);
+}
+
+.name {
+    font-weight: 700;
+    color: var(--bg-dark);
 }
 
 .selected {
@@ -276,9 +279,9 @@ a {
 
 .wrapper-header-img {
     height: 750px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17, 17, 17, 0.7)), to(rgb(17, 17, 17, 0.7))),  url('../images/bg-header.jpg');
-    background-image: -o-linear-gradient(rgba(17, 17, 17, 0.7), rgb(17, 17, 17, 0.7)),  url('../images/bg-header.jpg');
-    background-image: linear-gradient(rgba(17, 17, 17, 0.7), rgb(17, 17, 17, 0.7)),  url('../images/bg-header.jpg');
+    background-image: url('../images/bg-header.jpg');
+    background-image: url('../images/bg-header.jpg');
+    background-image: url('../images/bg-header.jpg');
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
@@ -484,6 +487,12 @@ a {
     margin: 5px;
  }
  
+.project-name {
+    color: var(--color-title);
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
  .grid .element-item a {
      display: block;
      position: relative;
