@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JC Arquitectos V2</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/resposive.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="nav-container">
+                <a href="#home" class="logo">
+                    <img src="images/logo.png" alt="Logo JC Arquitectos">
+                </a>
+
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="#home">Inicio</a></li>
+                    <li class="nav-item"><a href="#aboutus">Acerca de nosotros</a></li>
+                    <li class="nav-item"><a href="#services">Servicios</a></li>
+                    <li class="nav-item"><a href="#gallery">Galeria</a></li>
+                    <li class="nav-item"><a href="">Interiorismo</a></li>
+                    <li class="nav-item"><a href="">Contacto</a></li>
+                </ul>
+
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Header Content -->
+        <div id="home" class="header-bg">
+            <h1><span>JC</span> <br> Arquitectos</h1>
+        </div>
+        <!-- End Header Content -->
+
+        <!-- About us -->
+        <section id="aboutus">
+            <div class="container aboutus-container">
+                <div class="aboutus-img">
+                    <img src="images/aboutus.png" alt="Logo JC Arquitectos">
+                    <div class="experiense">
+                        <span class="counter">20</span>
+                        <p>
+                            Años <br> de Experiencia
+                        </p>
+                    </div>
+                </div>
+
+                <div class="aboutus-content">
+                    <h2>Acerca de nosotros</h2>
+
+                    <p>Con más de 20 años de experiencia en el sector de la construcción y arquitectura, <strong>JC
+                            Arquitectos</strong> se ha consolidado como una empresa líder en Boca del Río, Veracruz,
+                        gracias a nuestro compromiso con la excelencia, la innovación y la calidad en cada proyecto.</p>
+
+                    <p>En <strong>JC Arquitectos</strong>, nos enorgullece haber contribuido al desarrollo urbano y
+                        arquitectónico de Veracruz, dejando un legado de obras que reflejan sofisticación, funcionalidad
+                        y sostenibilidad. Cada proyecto es una oportunidad para superar expectativas, cumpliendo con los
+                        más altos estándares de seguridad y diseño.</p>
+                </div>
+            </div>
+        </section>
+        <!-- End About us -->
+
+        <!-- Services -->
+        <section id="services">
+            <div class="container">
+                <h2>Nuestros servicios</h2>
+            </div>
+            <div class="container services-container">
+                <article>
+                    <img src="images/icons/icon1.png" alt="">
+                    <h3>Diseño Arquitectónico</h3>
+                    <p>Transformar necesidades del cliente en un proyecto viable, estético y funcional, antes de la
+                        construcción</p>
+                </article>
+                <article>
+                    <img src="images/icons/icon2.png" alt="">
+                    <h3>Gestión de obra</h3>
+                    <p>Asegurar que la construcción avance eficientemente, cumpliendo con los diseños y estándares
+                        acordados</p>
+                </article>
+                <article>
+                    <img src="images/icons/icon3.png" alt="">
+                    <h3>Asesoría Arquitectónica</h3>
+                    <p>Guiar al cliente en decisiones clave para garantizar un proyecto eficiente, seguro y adaptado a
+                        sus necesidades, sin necesariamente involucrarse en la gestión directa de la obra</p>
+                </article>
+                <article>
+                    <img src="images/icons/icon4.png" alt="">
+                    <h3>Diseño de Interiores</h3>
+                    <p>Transformar espacios en lugares cómodos, visualmente atractivos y adaptados a las necesidades del
+                        usuario</p>
+                </article>
+            </div>
+        </section>
+        <!-- End Services -->
+
+        <!-- Gallery -->
+        <section id="gallery">
+            <div class="container gallery-title">
+                <h2>Nuestros proyectos</h2>
+            </div>
+            <div id="galleryGrid" class="container gallery-grid">
+                <!-- Imagenes se generan por JS -->
+            </div>
+
+            <div class="popup-overlay" id="popup">
+                <div class="popup-content">
+                    <button class="close-btn" id="closeBtn">
+                        ×
+                    </button>
+
+                    <button class="nav-btn prev-btn" id="prevBtn">
+                        ‹
+                    </button>
+
+                    <button class="nav-btn next-btn" id="nextBtn">
+                        ›
+                    </button>
+
+                    <img src="" alt="" class="popup-image" id="popupImage">
+                    <div class="popup-title" id="popupTitle"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End Gallery -->
+
+        <!-- Slider -->
+        <section id="slider">
+
+        </section>
+        <!-- End Slider -->
+    </main>
+
+    <button class="back-to-top" id="backToTop" title="Ir arriba"></button>
+
+    <footer id="contacto">
+
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
